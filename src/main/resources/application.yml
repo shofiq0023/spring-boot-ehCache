@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: admin
+
+  application:
+    name: student-ehcache-application
+
+  jpa:
+    hibernate.ddl-auto: update
+    properties.hibernate.dialact: org.hibernate.dialect.PostgreSQL9Dialect
